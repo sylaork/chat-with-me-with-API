@@ -7,7 +7,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyDmDtBz5Q96JzzJHojpyR2m0KJ44TKaZm8')
+genai.configure(api_key='#your api key#')
 
 st.title('Chat with Me')
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
